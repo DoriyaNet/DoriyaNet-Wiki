@@ -1,20 +1,31 @@
 {
-  "defaultLocale": "zh-cn",
+  "defaultLocale": "zh-CN",
   "locales": [
-    "zh-cn"
+    "zh-CN",
+    "en"
   ],
   "path": "i18n",
-  "currentLocale": "zh-cn",
+  "currentLocale": "zh-CN",
   "localeConfigs": {
-    "zh-cn": {
-      "label": "中文（中国）",
+    "zh-CN": {
+      "label": "中文",
       "direction": "ltr",
-      "htmlLang": "zh-cn",
+      "htmlLang": "zh-CN",
       "calendar": "gregory",
-      "path": "zh-cn",
+      "path": "zh-CN",
       "translate": false,
       "url": "https://your-docusaurus-site.example.com",
       "baseUrl": "/"
+    },
+    "en": {
+      "label": "English",
+      "direction": "ltr",
+      "htmlLang": "en",
+      "calendar": "gregory",
+      "path": "en",
+      "translate": false,
+      "url": "https://your-docusaurus-site.example.com",
+      "baseUrl": "/en/"
     }
   }
 }

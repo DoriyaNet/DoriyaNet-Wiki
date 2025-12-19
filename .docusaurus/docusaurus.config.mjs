@@ -34,12 +34,20 @@ export default {
   "projectName": "DoriyaNet",
   "onBrokenLinks": "throw",
   "i18n": {
-    "defaultLocale": "zh-cn",
+    "defaultLocale": "zh-CN",
     "locales": [
-      "zh-cn"
+      "zh-CN",
+      "en"
     ],
-    "path": "i18n",
-    "localeConfigs": {}
+    "localeConfigs": {
+      "zh-CN": {
+        "label": "中文"
+      },
+      "en": {
+        "label": "English"
+      }
+    },
+    "path": "i18n"
   },
   "presets": [
     [
@@ -88,6 +96,12 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Tutorial"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
         },
         {
           "to": "/blog",
